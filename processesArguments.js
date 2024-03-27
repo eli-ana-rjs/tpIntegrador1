@@ -1,4 +1,4 @@
-module.exports = function processesArguments(arguments) {
+function processesArguments(arguments) {
     const argumentoRecortado = arguments.slice(2);
 
     const processedArguments = {};
@@ -11,9 +11,9 @@ module.exports = function processesArguments(arguments) {
     });
 
     for (const propiedad in processedArguments) {
-        if (processedArguments[propiedad].includes('*')) {
+        if (processedArguments[propiedad].includes('_')) {
             processedArguments[propiedad] = processedArguments[propiedad].replaceAll(
-                '*',
+                '_',
                 ' '
             );
         }
@@ -21,3 +21,5 @@ module.exports = function processesArguments(arguments) {
 
     return processedArguments;
 }
+
+module.exports = processesArguments;

@@ -101,8 +101,78 @@ const books = [
         id: 14,
         name: 'Sidharta',
         author: 'Herman Hesse',
-        tags: ['Filosofia', 'Drama', 'realismo'],
+        tags: ['Filosofia', 'Drama', 'Realismo'],
         sold: 5
+    },
+    {
+        id: 15,
+        name: 'Final del Juego',
+        author: 'Julio Cortázar',
+        tags: ['Ciencia Ficcion', 'Realismo'],
+        sold: 9
+    },
+    {
+        id: 16,
+        name: 'Si Lo Crees, Lo Creas',
+        author: 'Brian Tracy',
+        tags: ['Autoayuda', 'Salud y Bienestar'],
+        sold: 3
+    },
+    {
+        id: 17,
+        name: 'Rayuela',
+        author: 'Julio Cortázar',
+        tags: ['Ciencia Ficcion', 'Novela', 'Drama'],
+        sold: 10
+    },
+    {
+        id: 18,
+        name: 'Romeo y Julieta',
+        author: 'Shakespeare',
+        tags: ['Drama', 'Romance'],
+        sold: 12
+    },
+    {
+        id: 19,
+        name: 'La Huida Del Cazador',
+        author: 'George R.R Martin',
+        tags: ['Ciencia Ficcion', 'Novela', 'Accion'],
+        sold: 7
+    },
+    {
+        id: 20,
+        name: 'Meditación',
+        author: 'Brian Weiss',
+        tags: ['Salud y Bienestar', 'Autoayuda', 'Espiritualidad'],
+        sold: 5
+    },
+    {
+        id: 21,
+        name: 'Tus Zonas Erróneas',
+        author: 'Wayne W. Dyer',
+        tags: ['Salud y Bienestar', 'Autoayuda'],
+        sold: 7
+    },
+    {
+        id: 22,
+        name: 'Muchos cuerpos, una misma alma',
+        author: 'Brian Weiss',
+        tags: ['Salud y Bienestar', 'Autoayuda'],
+        sold: 6
+    },
+    {
+        id: 23,
+        name: 'El Plan Fenix',
+        author: 'Brian Tracy',
+        tags: ['Salud y Bienestar', 'Autoayuda'],
+        sold: 13
+    },
+    {
+        id: 24,
+        name: 'El último amor de Arsène Lupin',
+        author: 'Maurice Leblanc',
+        tags: ['Historia', 'Novela'],
+        sold: 11
     },
 ];
 
